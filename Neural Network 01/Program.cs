@@ -311,6 +311,7 @@ namespace Neural_Network_01
             InitializeLayers();
             RunNetwork(1250, false);
             TestNetwork(1000);
+            Console.ReadLine();
         }
     }
 }
