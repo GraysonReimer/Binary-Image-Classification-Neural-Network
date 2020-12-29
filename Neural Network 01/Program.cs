@@ -64,7 +64,6 @@ namespace Neural_Network_01
             {
                 List<float> PixelValues = new List<float>();
                 Bitmap image = new Bitmap(Image.FromFile(BLimage), newSize: new Size(ImageResolution, ImageResolution));
-                image.Save("C:/Users/Grays PC/Desktop/NewImage.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
                 Data newData = new Data();
                 for (int i = 0; i < ImageResolution; i++)
                 {
